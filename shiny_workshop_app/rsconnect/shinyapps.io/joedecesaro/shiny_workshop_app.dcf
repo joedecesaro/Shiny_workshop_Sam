@@ -1,0 +1,11 @@
+name: shiny_workshop_app
+title:
+username:
+account: joedecesaro
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5686640
+bundleId: 5595261
+url: https://joedecesaro.shinyapps.io/shiny_workshop_app/
+when: 1645211784.35255
+lastSyncTime: 1645211784.35256

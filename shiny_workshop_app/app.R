@@ -3,7 +3,8 @@
 librarian::shelf(shiny,
                  palmerpenguins,
                  palmerpenguins,
-                 DT)
+                 DT,
+                 rsconnect)
 
 # User Interface ----
 ui <- fluidPage(
@@ -70,6 +71,7 @@ server<- function(input, output) {
                     style = 'caption-side: top; text-align: left;',
                     'Table 1: ', tags$em('Size measurements for adult foraging penguins near Palmer Station, Antarctica')))
   })
+  
 }
 
 # combine ui and server into an app ----
